@@ -22,25 +22,11 @@ with st.sidebar:
                            icons=['heart'],
                            default_index=0)
 
-
-
 # Heart Disease Prediction Page
 if selected == 'Heart Disease Prediction':
 
     # page title
     st.title('Heart Disease Prediction using ML')
-
-
-
-
-    
-
-
-
-
-
-
-
 
     col1, col2, col3 = st.columns(3)
 
