@@ -9,7 +9,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # loading the saved models
-heart_disease_model = pickle.load(open('C:/Users/nikit/OneDrive/Desktop/heart disease prediction system/saved model/heart_disease_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('./heart_disease_model.sav', 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
