@@ -1,0 +1,1 @@
+streamlit run "C:\Users\nikit\OneDrive\Desktop\heart disease prediction system\heart disease predict.py"
